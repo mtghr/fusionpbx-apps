@@ -4,6 +4,7 @@
 3. ```cd fusionpbx-apps/; cp -R sms /var/www/fusionpbx/app/```
 4. ```cd /var/www/fusionpbx/resources/install/scripts/app/```
 5. ```ln -s /var/www/fusionpbx/app/sms/resources/install/scripts/app/sms```
+  chown -R www-data:www-data /var/www/fusionpbx
 6. Go to GUI
 7. Upgrades -> SCHEMA; APP DEFAULTS; MENU DEFAULTS; PERMISSION DEFAULTS
 8. Log out and back in
